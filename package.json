@@ -1,0 +1,27 @@
+{
+  "name": "codespaces_test",
+  "version": "0.0.1",
+  "description": "test for github codespaces feature",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "dev": "nodemon server.js",
+    "install": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rfha/codespaces_test.git"
+  },
+  "author": "Raphael Hahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rfha/codespaces_test/issues"
+  },
+  "homepage": "https://github.com/rfha/codespaces_test#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
