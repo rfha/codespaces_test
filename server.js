@@ -1,10 +1,10 @@
-import express from 'express';
+const express = require('express');
 
 const app = express();
 
 const port = 8000;
 
-require('./app/routes').default(app);
+require('./app/routes')(app);
 
 app.listen(port, () => {
     console.log('Listening on port ' + port);
